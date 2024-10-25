@@ -25,7 +25,7 @@ export default function SearchScreen() {
   };
 
   const searchWeather = async () => {
-    const KEY = "dbf84aa24cf8c45ee794bbec3b097dbf";
+    const KEY = "";
     const response = await axios.get(
       `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=${KEY}`
     );
